@@ -113,7 +113,7 @@ limit: 20, offset: 40
 Boost by a field
 
 ```ruby
-boost: "orders_count" # give popular documents a little boost
+boost_by: "orders_count" # give popular documents a little boost
 ```
 
 ### Get Everything
